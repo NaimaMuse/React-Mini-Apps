@@ -1,29 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Sidebar(){
-    return(
-        <>
-        <h2>
-            React Apps
-            </h2>
-            <ul>
+function SideBar() {
+  return (
+    <div className="sidebar">
 
-            <li>
-            <Link to="/">Dashboard</Link>
-            </li>
-            <li>
-            <Link to="/calculator">Calculator</Link>
-            </li>
-            <li>
-            <Link to="/bmi">BMI</Link>
-            </li>
-            <li>
-            <Link to="/age">Age</Link>
-            </li>
-                        </ul>
+      <h2 className="logo">React Apps</h2>
 
-            </>
-    )
+      <ul className="menu">
+
+        <li>
+          <NavLink to="/" end>
+            Dashboard
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/calculator">
+            Calculator
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/bmi">
+            BMI
+          </NavLink>
+        </li>
+
+      </ul>
+
+    </div>
+  );
 }
-export default Sidebar;
+
+export default SideBar;
