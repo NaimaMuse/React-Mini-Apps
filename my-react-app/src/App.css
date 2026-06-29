@@ -364,3 +364,132 @@ body{
     font-weight:bold;
     color:#36b3b5;
 }
+
+
+
+
+
+
+
+/* ===========================
+   BMI PAGE
+=========================== */
+
+.bmi-page{
+    width:100%;
+}
+
+.bmi-header{
+    margin-bottom:30px;
+}
+
+.bmi-header h1{
+    font-size:30px;
+    color:#222;
+    margin-bottom:6px;
+}
+
+.bmi-header p{
+    color:#777;
+    font-size:15px;
+}
+
+/* Card */
+
+.bmi-card{
+    background:#fff;
+    border-radius:12px;
+    padding:35px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    max-width:800px;
+}
+
+/* Inputs */
+
+.bmi-inputs{
+    display:flex;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+.input-box{
+    flex:1;
+}
+
+.input-box label{
+    display:block;
+    margin-bottom:10px;
+    font-size:15px;
+    font-weight:600;
+    color:#444;
+}
+
+.input-box input{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+.input-box input:focus{
+    border-color:#36b3b5;
+    box-shadow:0 0 5px rgba(54,179,181,.25);
+}
+
+/* Button */
+
+.bmi-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:8px;
+    background:#36b3b5;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.bmi-btn:hover{
+    background:#2b999b;
+}
+
+/* Result */
+
+.bmi-result{
+    margin-top:30px;
+    background:#f5f7fa;
+    border-radius:10px;
+    padding:25px;
+    text-align:center;
+}
+
+.bmi-result h3{
+    color:#666;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+.result-number{
+    font-size:42px;
+    color:#36b3b5;
+    font-weight:bold;
+}
+
+/* Responsive */
+
+@media(max-width:700px){
+
+.bmi-inputs{
+    flex-direction:column;
+}
+
+.bmi-card{
+    padding:25px;
+}
+
+}
