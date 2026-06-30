@@ -794,3 +794,105 @@ body{
     font-weight:bold;
     color:#36b3b5;
 }
+
+
+
+/* ===========================
+   GRADE CALCULATOR
+=========================== */
+
+.grade-page{
+    width:100%;
+}
+
+.grade-header{
+    margin-bottom:20px;
+}
+
+.grade-header h1{
+    font-size:26px;
+    color:#222;
+    margin-bottom:5px;
+}
+
+.grade-header p{
+    color:#777;
+    font-size:14px;
+}
+
+.grade-card{
+    width:100%;
+    max-width:500px;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.grade-input-box{
+    margin-bottom:18px;
+}
+
+.grade-input-box label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+    font-size:14px;
+}
+
+.grade-input-box input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    font-size:15px;
+    outline:none;
+}
+
+.grade-input-box input:focus{
+    border-color:#36b3b5;
+}
+
+.grade-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    background:#36b3b5;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.grade-btn:hover{
+    background:#2a9b9d;
+}
+
+.grade-result{
+    margin-top:20px;
+    background:#f5f7fa;
+    border-radius:8px;
+    padding:18px;
+    text-align:center;
+}
+
+.grade-result h3{
+    font-size:18px;
+    color:#555;
+    margin-bottom:10px;
+}
+
+.grade-letter{
+    width:60px;
+    height:60px;
+    margin:auto;
+    border-radius:50%;
+    background:#36b3b5;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:26px;
+    font-weight:bold;
+}
