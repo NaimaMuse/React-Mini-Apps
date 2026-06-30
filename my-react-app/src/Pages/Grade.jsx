@@ -21,22 +21,47 @@ function Grade() {
   }
 
   return (
-    <div>
-      <h2>Grade Calculator</h2>
+    <div className="grade-page">
 
-      <input
-        type="number"
-        placeholder="Enter your score"
-        value={score}
-        onChange={(e) => setScore(e.target.value)}
-      />
+      <div className="grade-header">
+        <h1>Grade Calculator</h1>
+        <p>Calculate your grade based on your score</p>
+      </div>
 
-      <br />
-      <br />
+      <div className="grade-card">
 
-      <button onClick={calculateGrade}>Calculate Grade</button>
+        <div className="grade-input-box">
 
-      <h3>Grade: {grade}</h3>
+          <label>Score</label>
+
+          <input
+            type="number"
+            placeholder="Enter your score"
+            value={score}
+            onChange={(e) => setScore(e.target.value)}
+          />
+
+        </div>
+
+        <button
+          className="grade-btn"
+          onClick={calculateGrade}
+        >
+          Calculate Grade
+        </button>
+
+        <div className="grade-result">
+
+          <h3>Your Grade</h3>
+
+          <div className="grade-letter">
+            {grade}
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
   );
 }
