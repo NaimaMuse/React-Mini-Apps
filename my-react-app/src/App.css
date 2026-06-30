@@ -896,3 +896,128 @@ body{
     font-size:26px;
     font-weight:bold;
 }
+
+
+
+/* ===========================
+   TODO APP
+=========================== */
+
+.todo-page{
+    width:100%;
+}
+
+.todo-header{
+    margin-bottom:20px;
+}
+
+.todo-header h1{
+    font-size:26px;
+    color:#222;
+}
+
+.todo-header p{
+    color:#777;
+    font-size:14px;
+    margin-top:4px;
+}
+
+.todo-card{
+    max-width:600px;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+/* Input */
+
+.todo-input-group{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.todo-input-group input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    outline:none;
+    font-size:15px;
+}
+
+.todo-input-group input:focus{
+    border-color:#36b3b5;
+}
+
+.todo-input-group button{
+    background:#36b3b5;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.todo-input-group button:hover{
+    background:#2a9b9d;
+}
+
+/* Task List */
+
+.todo-list ul{
+    list-style:none;
+}
+
+.todo-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 15px;
+    margin-bottom:10px;
+    background:#f7f9fa;
+    border-radius:8px;
+}
+
+.todo-item span{
+    font-size:15px;
+    color:#333;
+}
+
+.todo-buttons{
+    display:flex;
+    gap:8px;
+}
+
+.edit-btn{
+    background:#36b3b5;
+    color:white;
+    border:none;
+    padding:7px 12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.delete-btn{
+    background:#e74c3c;
+    color:white;
+    border:none;
+    padding:7px 12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.edit-btn:hover{
+    background:#2a9b9d;
+}
+
+.delete-btn:hover{
+    background:#c0392b;
+}
+
+.empty-task{
+    text-align:center;
+    color:#777;
+    padding:20px;
+}
