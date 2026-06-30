@@ -1021,3 +1021,88 @@ body{
     color:#777;
     padding:20px;
 }
+
+
+
+
+
+
+/* ===========================
+   COUNTER APP
+=========================== */
+
+.counter-page{
+    width:100%;
+}
+
+.counter-header{
+    margin-bottom:20px;
+}
+
+.counter-header h1{
+    font-size:26px;
+    color:#222;
+    margin-bottom:5px;
+}
+
+.counter-header p{
+    color:#777;
+    font-size:14px;
+}
+
+.counter-card{
+    max-width:420px;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.counter-number{
+    width:90px;
+    height:90px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#36b3b5;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:36px;
+    font-weight:bold;
+}
+
+.counter-buttons{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+}
+
+.counter-buttons button{
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:15px;
+    transition:.3s;
+}
+
+.increase-btn{
+    background:#36b3b5;
+    color:white;
+}
+
+.decrease-btn{
+    background:#ff9800;
+    color:white;
+}
+
+.reset-btn{
+    background:#e74c3c;
+    color:white;
+}
+
+.counter-buttons button:hover{
+    opacity:.9;
+}
