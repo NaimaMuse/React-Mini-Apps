@@ -66,6 +66,11 @@ function SideBar() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/loan">
+            Loan
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/voting">
             Voting
           </NavLink>

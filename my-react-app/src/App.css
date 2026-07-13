@@ -20,6 +20,7 @@ body{
 
 .app-layout{
     display:flex;
+    border:2px solid #36b3b5;
 }
 
 /* ===========================
@@ -35,6 +36,7 @@ body{
     background:#232933;
     padding:25px 18px;
     overflow-y:auto;
+    border-right:2px solid #36b3b5;
 }
 
 .logo{
@@ -61,14 +63,17 @@ body{
     border-radius:10px;
     transition:.3s;
     font-size:15px;
+    border:1px solid rgba(255,255,255,0.15);
 }
 
 .menu a:hover{
     background:#36b3b5;
+    border-color:#36b3b5;
 }
 
 .menu a.active{
     background:#36b3b5;
+    border:1px solid #36b3b5;
 }
 
 /* ===========================
@@ -2412,4 +2417,84 @@ body{
     .water-result{
         width:100%;
     }
+}
+
+
+.loan-page{
+    width:100%;
+}
+
+.loan-header{
+    margin-bottom:20px;
+}
+
+.loan-header h1{
+    font-size:28px;
+    color:#222;
+}
+
+.loan-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.loan-card input{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    outline:none;
+}
+
+.loan-card button{
+    grid-column:span 3;
+    padding:12px;
+    border:none;
+    background:#36b3b5;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.loan-table{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.loan-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.loan-table th{
+    background:#36b3b5;
+    color:white;
+    padding:12px;
+}
+
+.loan-table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+.delete-btn{
+    background:#e74c3c;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.no-data{
+    text-align:center;
+    color:#777;
+    padding:20px;
 }
