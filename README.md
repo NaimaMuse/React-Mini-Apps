@@ -34,7 +34,6 @@ Data Persistence: Many tools leverage localStorage so user data (like to-dos and
 
 
 How to Run locallyClone this repository:Bashgit 
-clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 Navigate to the project folder:Bashcd YOUR_REPO_NAME
 Install dependencies:Bashnpm install
 Start the development server:Bashnpm start
