@@ -13,6 +13,10 @@ function ContactPage() {
       name: "Jane Doe",
       phone: "555-0143",
     },
+     {
+      name: "Jane Doe",
+      phone: "555-0143",
+    },
   ]);
 
   function saveContact() {
